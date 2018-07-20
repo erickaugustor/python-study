@@ -34,3 +34,18 @@ print('The {q} {b} {f}'.format(f='fox', b='brown', q='quick'))
 age = 3
 name = 'Sam'
 print(f'{name} is {age} years old')
+
+# lists 
+lists = ['H', 1, "Hello"]
+print(dir(lists))
+lists.append(3)
+help(lists.remove())
+lists.remove(3)
+
+# tuples
+tuples = ('Hello', 3, 4.5)
+print(tuples[-1])
+
+
+# dictionaries
+dictionaries = { "Name": "John", "Surname": "Smith" }
